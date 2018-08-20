@@ -1,0 +1,895 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/********************
+//////////// Custom Main Style  ////////////
+ *********************/
+section {
+    z-index: 2;
+}
+
+/*
+하단 베너 Style
+*/
+
+#back-row #center-row > div:last-child .btn, #bottom-banner-wrap .wpb_wrapper .row > div:last-child .btn {
+    background-color: #18d06b;
+    border-color: #18d06b;
+}
+
+#back-row #center-row > div:last-child .btn:hover, #bottom-banner-wrap .wpb_wrapper .row > div:last-child .btn:hover {
+    background-color: #2eba6d;
+    border-color: #2eba6d;
+}
+
+li.current_page_item {
+    opacity: 1 !important;
+    font-weight: 700 !important;
+}
+
+.btn .btn__text {
+    font-size: 1em !important;
+}
+
+#korea-main-banner {
+    z-index: 2;
+}
+
+@media (min-width: 510px) {
+    .how-to-use-wrap {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    #global-how-to-use {
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex-grow: 1;
+        margin: 0 10px;
+    }
+
+    #global-how-to-use-mobile {
+        display: none;
+    }
+}
+
+/**
+* Support 페이지 하단 Banner 스타일
+*/
+
+#global-support-bottom-banner-section {
+    padding: 0px;
+}
+
+#global-support-bottom-banner-section .mobile-section div, #bottom-banner-wrap div {
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 1024px) {
+    #bottom-banner-wrap .container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    footer {
+        padding: 20px 0 !important;
+    }
+
+    footer .heading-block {
+        display: inline-block;
+        margin-bottom: 0 !important;
+    }
+
+    a#1522207757968-2-4.ult_a.inner-link {
+        border-left: 1px solid #ccc !important;
+    }
+}
+
+/* Geuni 2018-04-12 Add How-to-use Tab Section Style */
+@media (min-width: 310px) and (max-width: 500px) {
+    .how-to-use-wrap {
+        display: none;
+    }
+
+    #global-how-to-use-mobile .slide-title {
+        /* Global -> How-to-use 페이지에서 모바일 해상 Slider Title Hide */
+        display: none;
+    }
+
+    #global-how-to-use-mobile {
+        display: block;
+    }
+}
+
+#accordions-4040 .accordions-head {
+    padding: 20px;
+    border: 0;
+    background: #fff !important;
+}
+
+#accordions-4040 .accordion-content {
+    padding: 0 20px 20px 60px;
+    border: 0;
+}
+
+#accordions-4040 .accordion-content > p {
+    padding: 10px 20px;
+}
+
+#accordions-4040 .accordions-head .accordions-head-title {
+    color: #000 !important;
+}
+
+/**
+ * Support 페이지 FAQ Style
+ */
+
+.custom-qa-categories-tab-warp > ul li {
+    overflow: visible !important;
+    border: 1px solid #ccc !important;
+    border-radius: 0 !important;
+}
+
+.custom-qa-categories-tab-warp > ul li > a {
+    overflow: visible !important;
+    background: #fff !important;
+    color: #3d4752 !important;
+    text-align: center !important;
+}
+
+.custom-qa-categories-tab-warp > ul li:hover > a {
+    background-color: #039cf3 !important;
+    color: #fff !important;
+}
+
+.custom-qa-categories-tab-warp > ul li.current > a {
+    background: #039cf3 !important;
+    color: #fff !important;
+}
+
+@media (min-width: 768px) {
+    .custom-qa-categories-tab-warp .ufaq-faq-body {
+        padding-left: 72px;
+    }
+}
+
+.custom-qa-categories-tab-warp .ult_tabitemname {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.custom-qa-categories-tab-warp .ult_tabitemname .ufaq-faq-title {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.custom-qa-categories-tab-warp .ufaq-faq-body .ufaq-faq-post p {
+    font-size: 15px;
+}
+
+@media (max-width: 767px) {
+    .custom-qa-categories-tab-warp .ult_tabmenu {
+        border: 0;
+    }
+
+    .custom-qa-categories-tab-warp .ufaq-faq-title-text > h4 {
+        font-size: 15px;
+    }
+
+    #toggle-how-to-use-qa {
+        width: 30px;
+        height: 30px;
+    }
+
+    .custom-qa-categories-tab-warp .ult_tabmenu .ult_tab_li {
+        border: 1px solid #ccc !important;
+    }
+
+    .custom-qa-categories-tab-warp .ult_tabmenu .ult_tab_li:nth-child(1), .custom-qa-categories-tab-warp .ult_tabmenu .ult_tab_li:nth-child(2) {
+        border-bottom: 0 !important;
+    }
+
+    .custom-qa-categories-tab-warp .ult_tabmenu .ult_tab_li {
+        display: block;
+        width: 49% !important;
+    }
+
+    .custom-qa-categories-tab-warp .ufaq-faq-body {
+        padding-left: 30px;
+    }
+
+    .aio-icon.none.ult_tab_iconright {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .wpml-ls-statics-shortcode_actions {
+        margin: 0 auto;
+    }
+}
+
+/********* language Style *********/
+#footer_language_list {
+    position: relative;
+    z-index: 1000;
+    display: inline-block;
+}
+
+#footer_language_list a {
+    text-decoration: none;
+}
+
+#footer_language_list .current-flag {
+    margin: 0 9px 0 0 !important;
+}
+
+#footer_language_list .current-language.actvie {
+    padding-top: 5px;
+    margin: 1px 0 0 0;
+    cursor: pointer;
+}
+
+#footer_language_list .current-language:hover .language-uniq-name {
+    transition: color 0.4s;
+
+}
+
+#footer_language_list .current-language .language-uniq-name {
+    color: #31639c;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#footer_language_list .non-current-language {
+    opacity: 0;
+    position: absolute;
+    left: -83px;
+    bottom: 34px;
+    padding: 10px 5px;
+    border-radius: 2px;
+    box-shadow: 0 50px 100px rgba(50, 50, 93, .1), 0 15px 35px rgba(50, 50, 93, .15), 0 5px 15px rgba(0, 0, 0, .1);
+    background-color: #fff;
+    text-align: left;
+    transition: opacity 0.4s;
+}
+
+#footer_language_list .non-current-language.show {
+    opacity: 1;
+}
+
+#footer_language_list .non-current-language::after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 78px;
+    transform: rotate(180deg);
+    width: 0;
+    height: 0;
+    border: 15px solid #fff;
+    border-top-width: 0;
+    border-right-color: transparent;
+    border-left-color: transparent;
+}
+
+#footer_language_list .non-current-language .language-row {
+    height: 36px;
+    margin-bottom: 0 !important;
+    padding: 0 15px;
+    line-height: 36px;
+    cursor: pointer;
+}
+
+#footer_language_list .non-current-language .language-row.actvie > a .language-uniq-name {
+    color: #31639c;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#footer_language_list .non-current-language .language-row:hover > a .language-uniq-name {
+    transition: color 0.4s;
+    color: rgb(17, 20, 47);
+}
+
+#footer_language_list .non-current-language .language-row .language-uniq-name {
+    color: #32325d;
+    font-size: 15px;
+}
+
+#footer_language_list .non-current-language .language-row:hover {
+    transition: background-color 0.1s;
+    background-color: #f6f9fc;
+}
+
+/********************/
+/*********  Footer Menu에서 첫번째 메뉴 기본 투명도 1로 설정 (WPML 언어 선택기) 용도  *********/
+/********************/
+.heading-block > ul.list-inline > :first-child {
+    opacity: 1 !important;
+}
+
+/********************/
+/*********  How to use Tab 에서 메인 탭 섹션 모바일일 경우 가로로 나열되게 설정  *********/
+/********************/
+
+@media (max-width: 1024px) {
+    .how-to-use-section.main-section > .tabs {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .how-to-use-section.main-section > .tabs > li {
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex-grow: 1;
+        border-right: 1px solid #ccc;
+    }
+
+    .how-to-use-section.main-section > .tabs > li:last-child {
+        border-right: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .how-to-use-section.main-section > .tabs > li .h5 {
+        font-size: 11px;
+    }
+
+    a[href="http://web.albamapp.com"] {
+        display: none !important;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .how-to-use-section.main-section > .tabs > li .h5 {
+        font-size: 7px;
+    }
+}
+
+@media (max-width: 360px) {
+    .how-to-use-section.main-section > .tabs > li .h5 {
+        font-size: 10px;
+    }
+}
+
+/********************/
+/*********  Main menu 52시간 페이지 Style처리 *********/
+/********************/
+.main_menu_52-work-time.hide {
+    display: none;
+}
+
+/********************/
+/*********  Main menu 반응형 디자인   *********/
+/********************/
+
+#menu1 .pc-main-menu ul li > a {
+    font-size: 14px;
+}
+
+#menu1 .pc-main-menu ul li:hover > a {
+    color: #039cf3;
+}
+
+@media (min-width: 1024px) {
+    #menu1 .pc-main-menu {
+        display: block;
+    }
+
+    #menu1 .tablet-main-menu {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .stack-header-buttons .header_nav_webAdmin_btn {
+        display: none !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    #menu1 .pc-main-menu {
+        display: none;
+    }
+
+    #menu1 .tablet-main-menu {
+        display: inline-block;
+        float: right;
+        text-align: right;
+    }
+
+    #menu1 .tablet-main-menu ul {
+        display: inline-block;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 800px) {
+    #menu1 .tablet-main-menu .bar__module > ul.menu-horizontal.text-left .menu-item {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 767px) {
+    #menu1 .tablet-main-menu {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 830px) {
+    .main-page-service-info-card, .main-page-service-info-card ~ div {
+        width: 100%;
+    }
+}
+
+#global-product-main-banner {
+    padding: 0;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+@media (min-width: 1024px) {
+    #global-product-main-banner {
+        background-image: url('/wp-content/uploads/2018/04/product_header_bg.png') !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    #global-product-main-banner {
+        background-image: url('/wp-content/uploads/2018/04/product_header_m_bg.png') !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .bar__module .menu-item {
+        padding: 10.752px !important;
+        text-align: center !important;;
+    }
+
+    .bar__module .menu-item a {
+        transition: opacity 0.5s !important;;
+        font-size: 1.3em !important;;
+        font-weight: 600 !important;;
+        opacity: 1 !important;;
+    }
+
+    .bar__module .menu-item:not(.active) a {
+        opacity: 0.4 !important;;
+    }
+
+    #menu1 {
+        box-shadow: 0 50px 100px rgba(234, 234, 234, .1), 0 15px 35px rgba(234, 234, 234, .15), 0 5px 15px rgba(0, 0, 0, .1);
+    }
+
+    #global-pricing-section {
+        padding-top: 0px;
+    }
+
+    #global-pricing-section .price_h__title {
+        margin-bottom: 0px;
+    }
+}
+
+#global-pricing-section .pricing-text h2 {
+    white-space: nowrap;
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+
+    #global-pricing-section .price_h__title {
+        font-size: 16px !important;
+    }
+
+    #global-pricing-section .pricing-selector-keyword-free {
+        font-size: 16px !important;
+    }
+
+    #global-pricing-section .pricing-text h2 {
+        font-size: 20px !important;
+    }
+
+}
+
+.albam-manual-section .wpb_column .wpb_text_column a[href="#"] {
+    text-decoration: line-through !important;
+    color: #ccc !important;
+    cursor: not-allowed !important;
+}
+
+.list--hover li:first-child {
+    opacity: 1;
+}
+
+/*
+*********  WPML Language Selector Style  *********
+ */
+.footer-logo-holder + ul {
+    padding-left: 1px !important;
+}
+
+#footer_language_list {
+    position: relative;
+    z-index: 1000;
+    display: inline-block;
+}
+
+#footer_language_list a {
+    text-decoration: none;
+}
+
+#footer_language_list .current-flag {
+    margin: 0 9px 0 0 !important;
+}
+
+#footer_language_list .current-language.actvie {
+    padding-top: 5px;
+    margin: 1px 0 0 0;
+    cursor: pointer;
+}
+
+#footer_language_list .current-language:hover .language-uniq-name {
+    transition: color .4s;
+
+}
+
+#footer_language_list .current-language .language-uniq-name {
+    color: #31639c;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#footer_language_list .non-current-language {
+    opacity: 0;
+    position: absolute;
+    left: -83px;
+    bottom: 34px;
+    padding: 10px 5px;
+    border-radius: 2px;
+    box-shadow: 0 50px 100px rgba(50, 50, 93, .1), 0 15px 35px rgba(50, 50, 93, .15), 0 5px 15px rgba(0, 0, 0, .1);
+    background-color: #fff;
+    text-align: left;
+    transition: opacity 0.4s;
+}
+
+#footer_language_list .non-current-language.show {
+    opacity: 1;
+}
+
+#footer_language_list .non-current-language::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 78px;
+    transform: rotate(180deg);
+    width: 0;
+    height: 0;
+    border: 15px solid #fff;
+    border-top-width: 0;
+    border-right-color: transparent;
+    border-left-color: transparent;
+}
+
+#footer_language_list .non-current-language .language-row {
+    margin-bottom: 0 !important;
+    height: 36px;
+    padding: 0 15px;
+    line-height: 36px;
+    cursor: pointer;
+}
+
+#footer_language_list .non-current-language .language-row.actvie > a .language-uniq-name {
+    color: #31639c;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#footer_language_list .non-current-language .language-row:hover > a .language-uniq-name {
+    transition: color .4s;
+    color: rgb(17, 20, 47);
+}
+
+#footer_language_list .non-current-language .language-row .language-uniq-name {
+    color: #32325d;
+    font-size: 15px;
+}
+
+#footer_language_list .non-current-language .language-row:hover {
+    transition: background-color 0.1s;
+    background-color: #f6f9fc;
+}
+
+/*
+*********  App DownLoad Button Style  *********
+ */
+@media (min-width: 1025px) {
+    #mobile__appDownLoad_wrap {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    #mobile__appDownLoad_wrap {
+        display: inline-block;
+        border-color: #1C84FB;
+        background-color: #1C84FB;
+    }
+
+    #mobile__appDownLoad_wrap > .mobile__appDownLoad-button {
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+.price_selector_wrap {
+    z-index: 1000;
+    display: inline-block;
+    position: relative;
+}
+
+.price_selector_wrap .pricing_selector_inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.price_selector_wrap .pricing_selector_inner .pricing_selector_btn_before {
+    margin-right: 3px;
+}
+
+.price_selector_wrap .pricing_selector_inner .pricing_selector_btn {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex-grow: 1;
+    color: #4a90e2;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+    .pricing_selector_btn {
+        font-size: 16px !important;
+    }
+}
+
+.pricing_selector_modal {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    color: #373a3c;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+}
+
+.pricing_selector_btn_after {
+    margin-left: -1.5px;
+}
+
+.pricing_selector_modal > .pricing_selector_option {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    font-size: 14px;
+    color: #373a3c;
+    text-align: inherit;
+    white-space: nowrap;
+    background: none;
+    border: 0;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+.pricing_selector_option.active {
+    color: #2b2d2f;
+    background-color: #f5f5f5;
+}
+
+.pricing_selector_modal > .pricing_selector_option:hover {
+    color: #2b2d2f;
+    background-color: #f5f5f5;
+}
+
+.pricing-selector-plus h2, .pricing-selector-auto h2 {
+    height: 42px;
+
+}
+
+/*
+==============================================
+Custom Style -- Editor: Geuni, 2018.04.17
+==============================================
+*/
+.ufaq-faq-title {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.ufaq-faq-list {
+    border-top: 3px solid gray;
+}
+
+.ewd-ufaq-post-margin ufaq-faq-post {
+    clear: both;
+}
+
+/*
+==============================================
+FAQ 세부 내용 스타일
+==============================================
+*/
+#faq-body-content-inner-wrap {
+    font-family: "Noto Sans", sans-serif;
+    overflow: visible;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    color: rgb(116, 119, 123);
+    font-size: 15px;
+    line-height: 1.2;
+    white-space: normal;
+}
+
+#faq-body-content-inner-wrap span {
+    display: block;
+    line-height: 1.6;
+}
+
+#faq-body-content-inner-wrap span:last-child {
+    margin-bottom: 0;
+}
+
+.mobile-section .how-to-use-section .tab__content h3 > strong {
+    font-weight: bold;
+}
+
+.mobile-section .how-to-use-section .tab__content h4 {
+    margin-bottom: -50px;
+}
+
+.back-to-top {
+    display: none;
+    left: 0 !important;
+    right: 0 !important;
+    margin: auto !important;
+}
+
+@media (min-width: 1024px) {
+    #main-banner-background-video {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+
+    #main-banner-background-video > video {
+        width: 100%;
+        z-index: -1;
+    }
+
+    .video-over-cover {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.4);
+        z-index: 1;
+        position: absolute;
+    }
+
+    .main-banner-sub-banner {
+        position: relative !important;
+    }
+
+    #main-banner-background-video > img {
+        display: none;
+    }
+}
+
+@media (max-width: 1023px) {
+    #main-banner-background-video > video {
+        display: none;
+    }
+
+    #main-banner-background-video > img {
+        display: block;
+    }
+
+    .video-over-cover {
+        display: none;
+    }
+}
+
+#main-page-popup-row .video {
+    height: 230px !important;
+}
+
+#main-page-popup-row .modal-instance {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center !important;
+}
+
+#main-page-popup-row .modal-instance .video-play-icon {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+
+#product-service-info-row .vc_icon_element {
+    margin-bottom: 5px !important;
+}
+
+.kboard-list__content.hide {
+    display: none;
+}
+
+.kboard-content-description {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+/* 2018-07-03 (화)요일 geuni */
+/* PDF 다운로드 버튼 스타일 변경 */
+/*  */
+@media (min-width: 1024px) {
+    #menual_pdf_container {
+        padding: 0 5px;
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 800px) {
+    #menual_pdf_container {
+        padding: 0 190px;
+    }
+}
+
+@media (max-width: 799px) {
+    #menual_pdf_container {
+        padding: 0 140px;
+    }
+}
+
+@media (max-width: 600px) {
+    #menual_pdf_container {
+        padding: 0 75px;
+    }
+}
+
+#menual_pdf_container .menual_pdf_wrap {
+    display: flex;
+    font-size: 16px;
+}
+
+#menual_pdf_container .menual_pdf_wrap a, #menual_pdf_container .menual_pdf_wrap span {
+    flex: 1;
+    text-align: center;
+}
+
+.ufaq-faq-div.ufaq-faq-display-style-Default .ufaq-faq-body{
+  display: block;
+}
+
+.ufaq-faq-div.ufaq-faq-display-style-Default .ufaq-faq-body.ewd-ufaq-hidden {
+  display: none;
+}
