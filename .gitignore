@@ -1,4 +1,4 @@
-wordpress/**
+/**
 !wordpress/wp_config.php
 /wp-admin/**
 /wp-includes/**
