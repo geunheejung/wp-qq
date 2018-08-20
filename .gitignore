@@ -1,5 +1,6 @@
 /**
-!wordpress/wp_config.php
+!/wp_config.php
+!/wp-content/
 /wp-admin/**
 /wp-includes/**
 /wp-content/*
