@@ -16,6 +16,12 @@
 
 
 !/wp-content/plugins/ultimate-faqs/
+/wp-content/plugins/ultimate-faqs/*
+
+!/wp-content/plugins/ultimate-faqs/js
+!/wp-content/plugins/ultimate-faqs/Shortcodes
+!/wp-content/plugins/ultimate-faqs/css
+
 
 !/wp-content/plugins/kboard/
 /wp-content/plugins/kboard/*
